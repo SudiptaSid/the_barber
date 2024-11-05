@@ -1,0 +1,28 @@
+// Buttons
+.btn {
+    padding:15px 20px;
+    border-radius:0;
+    font-size:1em;
+    text-transform: capitalize;
+    box-shadow:none;
+    text-shadow:none;
+    transition:0.6s all ease-in;
+    font-weight:700;
+    letter-spacing:2px;
+    border:none;
+    &:hover, &:focus {
+        outline:none;
+        box-shadow:none;
+        text-shadow:none;
+    }
+}
+
+// Btn Main
+.btn_main {
+    background-color:$primary_clr;
+    color:$white_clr;
+    &:hover, &:focus {
+        background-color:$no_clr;
+        color:$primary_clr;
+    }
+}

@@ -1,0 +1,44 @@
+// Reset
+body {
+    font-family:$main_font;
+    font-size: $base_fz;
+    line-height:1.8;
+    font-weight:400;
+    color:lighten($black_clr, 20%);
+    background-color:$white_clr;
+    overflow-x: hidden;
+    @media (max-width: $break_1080) {
+        font-size:13px;
+    }
+}
+ul,ol {
+    list-style-type:none;
+    padding-left:0px;
+    margin-bottom:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:500;
+    margin-bottom:15px;
+    line-height:1.5;
+}
+a {
+    text-decoration: none;
+    transition:600ms;
+    &:hover {
+        text-decoration: none;
+        color:$primary_clr;
+    }
+}
+a, button, input, textarea, select {
+    &:focus, &:hover, &:active {
+        outline:none;
+        box-shadow:none;
+    }
+}
+img {
+    width:100%;
+}
+p {
+    letter-spacing: 1px;
+}
+// Bootstrap Reset

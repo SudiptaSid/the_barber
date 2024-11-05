@@ -1,0 +1,20 @@
+// Form
+.form-control {
+    padding:15px 20px;
+    background-color:#eeeef0;
+    color:$black_clr;
+    border-radius:0;
+    border:none;
+    font-size:1em;
+    &:focus {
+        box-shadow:none;
+        outline:none;
+        background-color:#eeeef0;
+    }
+    &::placeholder {
+        color:darken($white_clr, 55%);
+    }
+}
+textarea {
+    resize: none;
+}
